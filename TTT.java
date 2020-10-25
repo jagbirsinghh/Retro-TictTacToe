@@ -223,7 +223,7 @@ String text="";
 	}
 
 	public boolean players() {
-		int playerchoice = JOptionPane.showConfirmDialog(this, "Do you want to play with computer ? ");
+		int playerchoice = JOptionPane.showConfirmDialog(this, "Do you want to play with computer? ");
 		if (playerchoice == JOptionPane.YES_OPTION) {
 			this.playerflag = true;
 		} else {
